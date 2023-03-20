@@ -11,6 +11,7 @@ student.previousOccupation = 'Solar Installer';
 
 console.log('The value of livesInIrvine ', student.livesInIrvine);
 console.log('The value of previousOccupation ', student.previousOccupation);
+console.log('The value of student ', student);
 
 const vehicle = {
   make: 'Honda',
