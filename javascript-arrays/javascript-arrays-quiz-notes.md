@@ -7,13 +7,13 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What are arrays used for?
 Storing multiple items under a single variable name.
 - Describe array literal notation.
-Calling a variable with brackets.
+Calling a variable with brackets and the values seperated by commas.
 - How are arrays different from "plain" objects?
 Arrays don't call of properties but just the value itself.
 - What number represents the first index of an array?
 0
 - What is the `length` property of an array?
-.length
+.length which the the total length of the array.
 - How do you calculate the last index of an array?
 arrayname.length - 1
 
