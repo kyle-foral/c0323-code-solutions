@@ -1,7 +1,7 @@
 var orderHistory = [
   {
     numberofItems: 1,
-    orderDatePlaced: ' Auguest 4th, 2020',
+    orderDatePlaced: ' Auguest 4th 2020',
     priceofItem: 31.55,
     orderNumber: '114-3941689-8772232',
     deliveryDate: 'Augest 8th 2020',
