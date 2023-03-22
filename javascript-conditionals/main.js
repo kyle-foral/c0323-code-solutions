@@ -67,7 +67,7 @@ function isOldEnoughToDrinkAndDrive(person) {
     age: 1
   };
   const nogo = homer.age;
-  if (nogo < 10) {
+  if (nogo <= 16 && nogo <= 21) {
     return false;
   } else {
     return false;
