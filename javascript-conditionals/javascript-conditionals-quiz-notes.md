@@ -7,7 +7,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - Give 6 examples of comparison operators.
 Greater than >, Less than <, Equal to ==, Stricly equal to ===, Not equal to !=, Less than or equal to <=
 - What data type do comparison expressions evaluate to?
-Numbers, strings, values and variables.
+Boolean to know if its true or false.
 - What is the purpose of an `if` statement?
 To determine what needs to be return or ran.
 - Is `else` required in order to use an `if` statement?
