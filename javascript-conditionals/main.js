@@ -36,47 +36,51 @@ function startsWithJ(string) {
 console.log('Starts with J ', startsWithJ('Cat'));
 
 function isOldEnoughToDrink(person) {
-  const Brad = {
+  const brad = {
     age: 25,
     name: 'Brad Long'
   };
-  const over = Brad.age;
-  if (over > 21) {
+  const over = brad.age;
+  if (over >= 21) {
     return true;
-  } else { return false; }
+  } else {
+    return false;
+  }
 }
 console.log('Is person old enough to drink? ', isOldEnoughToDrink());
 
 function isOldEnoughToDrive(person) {
-  const Homer = {
+  const homer = {
     name: 'Homer Simpson',
     age: 30
   };
-  const old = Homer.age;
-  if (old > 16) {
+  const old = homer.age;
+  if (old >= 16) {
     return true;
   } else { return false; }
 }
 console.log('Is old enough to drive ', isOldEnoughToDrive());
 
 function isOldEnoughToDrinkAndDrive(person) {
-  const Homer = {
-    name: 'Homer Simpson',
+  const homer = {
+    name: 'homer Simpson',
     age: 1
   };
-  const nogo = Homer.age;
+  const nogo = homer.age;
   if (nogo < 10) {
     return false;
-  } else { return true; }
+  } else {
+    return false;
+  }
 }
 console.log('Old enough to drink and drive? ', isOldEnoughToDrinkAndDrive());
 
 function categorizeAcidity(pH) {
   if (pH === 7) {
     return 'neutral';
-  } else if (pH < 7 && pH > 0) {
+  } else if (pH < 7 && pH >= 0) {
     return 'acid';
-  } else if (pH > 7 && pH < 14) {
+  } else if (pH > 7 && pH <= 14) {
     return 'base';
   } else { return 'invalid PH level'; }
 }
