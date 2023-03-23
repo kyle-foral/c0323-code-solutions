@@ -30,7 +30,7 @@ console.log('Get even numbers to twenty ', getEvenNumbersToTwenty());
 function repeatWord(word, times) {
   let count = 1;
   let repeated = ' ';
-  while (count < times) {
+  while (count <= times) {
     repeated += word;
     count++;
   } return repeated;
