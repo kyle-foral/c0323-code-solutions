@@ -9,9 +9,9 @@ Greater than >, Less than <, Equal to ==, Stricly equal to ===, Not equal to !=,
 - What data type do comparison expressions evaluate to?
 Boolean to know if its true or false.
 - What is the purpose of an `if` statement?
-To determine what needs to be return or ran.
+To determine if it returns true of false, so it knows what to return or run.
 - Is `else` required in order to use an `if` statement?
-Yes.
+No.
 - Describe the syntax (structure) of an `if` statement.
 if (condition) {statement}
 - What are the three logical operators?
@@ -21,7 +21,7 @@ By using one of the logical operators.
 - What is the purpose of a `switch` statement?
 To change the return value based on what the input is given.
 - Is a `default` clause required in order to use a `switch` statement?
-Yes and there can only be 1
+No, it is optional but you can only have 1.
 ## Notes
 
 All student notes should be written here.
