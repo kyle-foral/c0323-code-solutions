@@ -9,7 +9,7 @@ To iterate through data.
 - What is the purpose of a **condition** expression in a loop?
 To tell the loop how many times to run
 - What does "iteration" mean in the context of loops?
-To run through the loop mulitple times.
+To run through the loop mulitple times. Having a new loop start as well.
 - _When_ does the **condition** expression of a `while` loop get evaluated?
 Everytime it runs through the loop
 - _When_ does the **initialization** expression of a `for` loop get evaluated?
