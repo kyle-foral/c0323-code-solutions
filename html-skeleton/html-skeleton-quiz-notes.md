@@ -5,11 +5,11 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - Where do you put non-visible content about the HTML document?
-Inside the title element that will appear at the top of the page, normally above the URL and not inside the body on the web page.
+Inside the head element tags.
 - Where do you put visible content about the HTML document?
 Within the body element section of the html page.
 - Where do the `<head>` and `<body>` tags go in a valid HTML document?
-Th head tag will be before the body element. The head element is where you usually will find the title element as well.
+The head and body tags will be within te HTML tags. The head element will be before the body tag.
 - What is the purpose of a `<!DOCTYPE>` declaration?
 To tell the browser which verion of HTML the page is using.
 ## Notes
