@@ -5,11 +5,11 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What are the names of the individual pieces of a CSS rule?
-A selector and a declaration.
+A selector and a declaration, property and value.
 - In CSS, how do you select elements by their `class` attribute?
 by putting a . before
 - In CSS, how do you select elements by their tag name?
-By just writing out the tag name as the selector.
+By just writing out the tag name as the selector then the declaration code block.
 - In CSS, how do you select an element by its `id` attribute?
 by putting a # before
 
