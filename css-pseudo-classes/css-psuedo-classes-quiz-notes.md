@@ -5,7 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is a pseudo-class?
-Changing the apperance of something you are going to interact with.
+A keyword to help apply css to interact with an element.
 - What are CSS pseudo-classes useful for?
 Changing the colors of stuff when hovering over them, or clicking on the item so it feel slike you are pressing it.
 
