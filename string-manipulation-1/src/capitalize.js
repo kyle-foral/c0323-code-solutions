@@ -7,3 +7,4 @@ function capitalize(word) {
   const final = cap + cut;
   return final;
 }
+//
