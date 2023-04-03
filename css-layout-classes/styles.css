@@ -1,0 +1,49 @@
+.super-smash {
+  display: flex;
+  flex-direction: row;
+}
+
+.monkey {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+}
+
+.column-one-third {
+  flex-basis: calc(100% / 3);
+}
+
+.column-two-third {
+  flex-basis: calc(66%);
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.characters {
+  flex-direction: row;
+}
+
+.characters img {
+  width: 100%;
+}
+
+.man {
+  display: flex;
+  align-items: center;
+}
+
+.mario {
+  margin-right: 50px;
+}
+
+.column-fourth {
+  flex-basis: calc(100% / 4);
+}
