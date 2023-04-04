@@ -21,6 +21,5 @@ function timesclicked() {
     butt.setAttribute('class', 'hot-button hot');
   } else {
     butt.setAttribute('class', 'hot-button nuclear');
-    number = 0;
   }
 }
