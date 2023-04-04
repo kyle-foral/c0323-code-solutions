@@ -5,8 +5,8 @@
 }
 
 .column-one-half {
-  flex-basis: (100% / 2);
   text-align: left;
+  flex-wrap: wrap;
 }
 
 p {
@@ -24,6 +24,7 @@ h3 {
 img {
   height: 100px;
   width: 100px;
+  flex-wrap: wrap;
 }
 
 input {
