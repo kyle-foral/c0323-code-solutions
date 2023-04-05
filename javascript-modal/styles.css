@@ -46,7 +46,8 @@ main {
   text-align: center;
   justify-content: center;
   background-color: white;
-  width: 300px;
+  width: 400px;
+  height: 200px;
   margin-left: 300px;
 }
 
@@ -79,4 +80,8 @@ main {
   top: 0;
   right: 0;
   left: 0;
+}
+
+h2 {
+  padding-top: 30px;
 }
