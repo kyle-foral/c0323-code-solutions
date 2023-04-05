@@ -1,0 +1,87 @@
+#my-button {
+  width: 200px;
+  height: 50px;
+  background-color: lightseagreen;
+  border-radius: 10%;
+  border-color: lightseagreen;
+  color: white;
+  font-size: 26px;
+  position: static;
+}
+
+#no-button {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(235 93 93);
+  color: white;
+  font-size: 22px;
+  border-color: rgb(235 93 93);
+  border-radius: 10%;
+  position: relative;
+  right: 0;
+  top: 0;
+}
+
+main {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+}
+
+.column-full {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 50vh;
+  flex-wrap: wrap;
+}
+
+.container {
+  position: absolute;
+  background-size: cover;
+}
+
+.show {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+  width: 400px;
+  height: 200px;
+  margin-left: 300px;
+}
+
+.noshow {
+  display: none;
+}
+
+.row {
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  display: none;
+}
+
+.overlay {
+  background-color: white;
+}
+
+.dark {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 50vh;
+  flex-wrap: wrap;
+  background: rgb(0 0 0 / 50%);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+h2 {
+  padding-top: 30px;
+}
