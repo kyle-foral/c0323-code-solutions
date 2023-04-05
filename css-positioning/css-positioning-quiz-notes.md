@@ -5,7 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is the **default** value for the `position` property of HTML elements?
-0
+Static
 - How does setting `position: relative` on an element affect document flow?
 Relative positioning moves an element in relation to where it would have been in normal flow.
 - How does setting `position: relative` on an element affect where it appears on the page?
