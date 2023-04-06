@@ -59,40 +59,38 @@ const pokedex = [
 
 function renderPokemon(pokemon) {
 
-  const row = document.querySelector('.row');
+  const $newest = document.createElement('div');
+  $newest.className = 'column-third';
 
-  const newest = document.createElement('div');
-  newest.className = 'column-third';
+  const $poke = document.createElement('div');
+  $poke.className = 'pokemon-card';
+  $newest.appendChild($poke);
 
-  const poke = document.createElement('div');
-  poke.className = 'pokemon-card';
-  newest.appendChild(poke);
+  const $image = document.createElement('img');
+  $image.src = pokemon.imageUrl;
+  $poke.appendChild($image);
 
-  const image = document.createElement('img');
-  image.src = pokemon.imageUrl;
-  poke.appendChild(image);
+  const $card = document.createElement('div');
+  $card.className = 'pokemon-card-text';
+  $poke.appendChild($card);
 
-  const card = document.createElement('div');
-  card.className = 'pokemon-card-text';
-  poke.appendChild(card);
+  const $name = document.createElement('h2');
+  $name.textContent = pokemon.name;
+  $card.appendChild($name);
 
-  const name = document.createElement('h2');
-  name.textContent = pokemon.name;
-  card.appendChild(name);
+  const $number = document.createElement('h3');
+  $number.textContent = pokemon.number;
+  $card.appendChild($number);
 
-  const number = document.createElement('h3');
-  number.textContent = pokemon.number;
-  card.appendChild(number);
+  const $desc = document.createElement('p');
+  $desc.textContent = pokemon.description;
+  $card.appendChild($desc);
 
-  const desc = document.createElement('p');
-  desc.textContent = pokemon.description;
-  card.appendChild(desc);
-
-  row.appendChild(newest);
-  console.log(newest);
-
+  return $newest;
 }
 
 for (let i = 0; i < pokedex.length; i++) {
-  renderPokemon(pokedex[i]);
+  const $row = document.querySelector('.row');
+  $row.appendChild(renderPokemon(pokedex[i]));
+
 }
