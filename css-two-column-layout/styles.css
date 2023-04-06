@@ -2,11 +2,11 @@
   justify-content: center;
   display: flex;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .column-one-half {
   text-align: left;
-  flex-wrap: wrap;
   padding: 20px 0;
 }
 
