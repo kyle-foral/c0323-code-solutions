@@ -8,7 +8,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 Changing the width of the page to change colors.
 Making items got down vertically and not off the page.
 - Which HTML meta tag is used in mobile-responsive web pages?
-viewpoint
+viewport
 
 ## Notes
 
