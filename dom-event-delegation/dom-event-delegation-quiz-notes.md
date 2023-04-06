@@ -20,7 +20,8 @@ By adding an addEventListener to the parent of the list.
 ## Notes
 
 All student notes should be written here.
-
+.tagname needs to match or return in CAPS
+example .tagName === 'BUTTON'
 
 How to write `Code Examples` in markdown
 
