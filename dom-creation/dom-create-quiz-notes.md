@@ -9,11 +9,11 @@ No
 - How do you add an element as a child to another element?
 appendChild
 - What do you pass as the arguments to the `element.setAttribute()` method?
-The class
+The name and the value.
 - What steps do you need to take in order to insert a new element into the page?
 createElement, createTextNode, and appendChild
 - What is the `textContent` property of an element object for?
-It provides the content of the element.
+It provides the content of the element. It's a getter and a setter. So you can get or retrieve the text.
 - Name two ways to set the `class` attribute of a DOM element.
 setAttribute and .className
 - What are two advantages of defining a function to do create something (like the work of creating a DOM tree)?
