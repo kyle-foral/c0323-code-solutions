@@ -20,12 +20,9 @@ console.log('books', books, typeof books);
 const stringName = JSON.stringify(books);
 console.log('JSON', stringName, typeof stringName);
 
-const rest = JSON.stringify({
-  NumberID: '007',
-  StringName: 'Jonny Boy'
-});
+const test = '{"NumberID": "007", "StringName": "Jonny Boy"}';
 
-console.log('rest', rest, typeof rest);
+console.log('test', test, typeof test);
 
-const obj = JSON.parse(rest);
+const obj = JSON.parse(test);
 console.log('obj', obj, typeof obj);
