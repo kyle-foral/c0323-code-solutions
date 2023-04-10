@@ -1,0 +1,52 @@
+.row {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.column-one-half {
+  text-align: left;
+  padding: 20px 0;
+}
+
+p {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  flex-wrap: wrap;
+}
+
+input {
+  width: 155px;
+  height: 35px;
+  background-color: white;
+  color: rgb(209 76 69);
+  border-color: rgb(209 76 69);
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+}
+
+.text {
+  max-width: 300px;
+}
