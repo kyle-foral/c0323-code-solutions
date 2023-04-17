@@ -4,6 +4,7 @@ h1 {
   font-weight: 300;
   color: blue;
   font-size: 52px;
+  margin-left: 60px;
 }
 
 .row1 {
@@ -27,7 +28,25 @@ h1 {
 
 .hero {
   width: 90%;
-  height: 500px;
+  height: 600px;
+  position: relative;
+}
+
+.pic-head {
+  position: absolute;
+  color: white;
+  left: 170px;
+  top: 160px;
+  font-size: 45px;
+}
+
+.pic-text {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  left: 170px;
+  bottom: 50px;
+  line-height: 30px;
 }
 
 .title-text {
@@ -47,4 +66,5 @@ span:last-child {
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 10%;
+  margin-right: 60px;
 }
