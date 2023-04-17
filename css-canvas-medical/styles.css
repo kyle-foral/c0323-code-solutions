@@ -1,0 +1,50 @@
+h1 {
+  display: inline;
+  font-family: "Tiempos Headline", sans-serif;
+  font-weight: 300;
+  color: blue;
+  font-size: 52px;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-between;
+
+  /* border-bottom: 1px solid grey; */
+}
+
+.row2 {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.column-full {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.hero {
+  width: 90%;
+  height: 500px;
+}
+
+.title-text {
+  padding-top: 65px;
+  right: 20px;
+}
+
+span {
+  padding-left: 35px;
+  padding-right: 35px;
+  color: grey;
+}
+
+span:last-child {
+  background-color: blue;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10%;
+}
