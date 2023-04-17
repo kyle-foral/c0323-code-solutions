@@ -26,6 +26,19 @@ h1 {
   justify-content: center;
 }
 
+.column-half {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+}
+
+.light-grey {
+  color: rgb(250 250 250);
+  margin-top: 50px;
+  position: relative;
+}
+
 .hero {
   width: 90%;
   height: 600px;
@@ -54,6 +67,35 @@ h1 {
   right: 20px;
 }
 
+h3 {
+  position: absolute;
+  color: rgb(134 134 134);
+  font-size: 25px;
+}
+
+.grey-text {
+  position: absolute;
+  color: rgb(134 134 134);
+  top: 45px;
+}
+
+.locations {
+  position: absolute;
+  color: rgb(134 134 134);
+}
+
+button {
+  position: absolute;
+  height: 50px;
+  width: 150px;
+  background-color: rgb(41 68 100);
+  color: white;
+  bottom: 0;
+  left: 200px;
+  border-style: none;
+  border-radius: 10%;
+}
+
 span {
   padding-left: 35px;
   padding-right: 35px;
@@ -61,7 +103,7 @@ span {
 }
 
 span:last-child {
-  background-color: blue;
+  background-color: rgb(41 68 100);
   color: white;
   padding-top: 10px;
   padding-bottom: 10px;
