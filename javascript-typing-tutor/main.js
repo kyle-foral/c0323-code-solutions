@@ -9,9 +9,6 @@ function typed(event) {
     words[counter].setAttribute('class', 'span underline');
   } else {
     words[counter].setAttribute('class', 'span wrong');
-    console.log(words[counter]);
   }
-
-  console.log(event.key);
 }
 addEventListener('keydown', typed);
