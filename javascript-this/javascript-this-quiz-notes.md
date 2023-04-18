@@ -20,7 +20,7 @@ When it's called
       }
     };
     ```
-It's refering to the firstName property of the character object. (Mario)
+It's refering to the firstName property of the character object. (Mario) But won't know until it's called on.
 - Given the above `character` object, what is the result of the following code snippet? Why?
     ```js
     character.greet();
@@ -31,9 +31,9 @@ It's a me Mario. Becuase it's still being called under the same object.
     const hello = character.greet;
     hello();
     ```
-character.greet. It's not calling the 'character' object but the hello const which has nothing about 'this' in it.
+It's a me undefined. It's not calling the 'character' object but the hello const which has nothing about 'this' in it. And go off the window versioj of 'this' not the character version of 'this'.
 - How can you tell what the value of `this` will be for a particular function or method **definition**?
-By following the code and seeing what it would be trying to reference at the time of defining it.
+By following the code and seeing what it would be trying to reference at the time of calling it.
 - How can you tell what the value of `this` is for a particular function or method **call**?
 Based on what to the left of the dot upon being called.
 
