@@ -11,11 +11,11 @@ const anFunction = new Function();
 console.log('value of anFunction', anFunction);
 console.log('type of anFunction', typeof anFunction);
 
-const anString = new String('');
+const anString = new String();
 console.log('value of anString', anString);
 console.log('type of anString', typeof anString);
 
-const anNumber = new Number(0);
+const anNumber = new Number();
 console.log('value of anNumber', anNumber);
 console.log('type of anNumber', typeof anNumber);
 
