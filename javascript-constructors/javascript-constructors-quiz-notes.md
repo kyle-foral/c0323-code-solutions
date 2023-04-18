@@ -7,7 +7,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What does the `new` operator do?
 Allows you to assign a variable to a function, string, number, boolean, object
 - What property of JavaScript functions can store shared behavior for instances created with `new`?
-this.
+Prototype property allows functions to be stored over various instances.
 - What does the `instanceof` operator do?
 tests to see if the prototype property of a constructor appears anywhere in the prototype chain of an object.
 
