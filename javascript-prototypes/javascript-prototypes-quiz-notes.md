@@ -9,9 +9,9 @@ Prototypal inheritance
 - What is a prototype in JavaScript?
  mechanisms by which JavaScript objects inherit features from one another.
 - How is it possible to call methods on strings, arrays, and numbers even though those methods don't actually exist on strings, arrays, and numbers?
-The methods would do nothing and just the return an object as a primitive value.
+They borrow them from the prototype when called.
 - If an object does not have it's own property or method by a given key, where does JavaScript look for it?
-It looks for it in the window.
+It looks for it in the window. (The main prototype)
 ## Notes
 
 All student notes should be written here.
