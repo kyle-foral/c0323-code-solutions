@@ -3,12 +3,12 @@ const number = document.querySelector('.countdown-display');
 
 let counter = 4;
 function countdown() {
-  const boom = number.textContent = 'boom';
-  if (counter === -1) {
+  if (counter > 0) {
+    const boom = number.textContent = 'boom';
     return boom;
   } else {
     number.textContent = counter--;
-  }clearInterval();
+  }clearInterval(interval);
 }
 
-setInterval(countdown, 1000);
+const interval = setInterval(countdown, 1000);
