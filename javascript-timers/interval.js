@@ -3,7 +3,7 @@ const number = document.querySelector('.countdown-display');
 
 let counter = 4;
 function countdown() {
-  if (counter > 0) {
+  if (counter === 0) {
     const boom = number.textContent = 'boom';
     return boom;
   } else {
