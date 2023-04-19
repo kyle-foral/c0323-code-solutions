@@ -32,6 +32,12 @@ h1 {
   height: 50px;
 }
 
+.row5 {
+  display: flex;
+  justify-content: center;
+  min-height: 30vh;
+}
+
 .column-full {
   display: flex;
   width: 100%;
@@ -50,6 +56,23 @@ h1 {
   width: 100%;
   justify-content: space-between;
   align-items: center;
+}
+
+.column-half2 {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+}
+
+.column-fourth {
+  width: 25%;
+  display: flex;
+}
+
+.column-fourth2 {
+  width: 25%;
+  display: flex;
 }
 
 .light-grey {
@@ -158,4 +181,14 @@ span:last-child {
   height: 400px;
   background-color: rgb(82 83 81);
   margin: auto;
+}
+
+h5 {
+  font-size: 50px;
+  color: white;
+}
+
+.contact-info {
+  position: absolute;
+  left: 0;
 }
