@@ -7,15 +7,16 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What are JavaScript classes?
 Classes themselves are normal JavaScript values as well, and have their own prototype chains.
 - When would you want to use a class?
-They are rarely used and only for paradigm in software development
+They are rarely used and only for paradigm in software development.
+When you want to extend a class functionality.
 - How do you declare a class?
-By writing Class
+By writing Class keyword then Classname then {}.
 - How do you inherit from another class?
 extends
 - Why would you want to inherit from another class?
-To pull it's properties and methods
+To pull it's properties and methods. Reuse code so we don't need to rewrite it each time.
 - How do you add methods and properties to a class?
-Super()
+Declare classes inside the body.
 
 ## Notes
 
