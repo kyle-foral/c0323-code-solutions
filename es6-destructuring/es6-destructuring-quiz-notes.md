@@ -5,12 +5,13 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is destructuring, conceptually?
-
+  Breaking down a structure and taking the individual values.
 - What is the syntax for `Object` destructuring?
-
+  const { propertyName: variable } = object
 - What is the syntax for `Array` destructuring?
-
+  const [properyName: varible ] = object
 - How can you tell the difference between destructuring and creating `Object`/`Array` literals?
+  By the surronding parentheses
 
 ## Notes
 

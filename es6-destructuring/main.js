@@ -3,7 +3,9 @@ const book1 = {
   author: 'Inio Asano',
   libraryID: 3353,
 };
-const { title, author, libraryID } = book1;
+const title = `${book1.title}`;
+const author = `${book1.author}`;
+const libraryID = `${book1.libraryID}`;
 
 console.log(
   'The title of the book is ' +
