@@ -3,17 +3,10 @@ const book1 = {
   author: 'Inio Asano',
   libraryID: 3353,
 };
-const title = `${book1.title}`;
-const author = `${book1.author}`;
-const libraryID = `${book1.libraryID}`;
+const { title, author, libraryID } = book1;
 
 console.log(
-  'The title of the book is ' +
-    title +
-    ', and the author is ' +
-    author +
-    ', and the library id is ' +
-    libraryID
+  `The title of the book is ${title}, the author is ${author}, and the library id is ${libraryID}`
 );
 
 const book2 = {
@@ -25,12 +18,7 @@ const book2 = {
 const { title: title2, author: author2, libraryID: libraryID2 } = book2;
 
 console.log(
-  ' The title of the book is ' +
-    title2 +
-    ', and the author is ' +
-    author2 +
-    ', and the library id is ' +
-    libraryID2
+  `The title of the book is ${title2}, the author is ${author2}, and the library id is ${libraryID2}`
 );
 
 const library = [

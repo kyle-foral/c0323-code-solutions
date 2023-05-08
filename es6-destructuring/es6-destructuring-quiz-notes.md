@@ -11,7 +11,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What is the syntax for `Array` destructuring?
   const [properyName: varible ] = object
 - How can you tell the difference between destructuring and creating `Object`/`Array` literals?
-  By the surronding parentheses
+  By the placement of where the curly braces are. destructure is on left and create if on right.
 
 ## Notes
 
