@@ -15,7 +15,6 @@ const actOnEntries = (obj, action) =>
   Object.entries(obj).forEach((e) => {
     action(e);
   });
-
 actOnEntries(book, (entry) => console.log(`${entry[0]} = ${entry[1]}`));
 
 console.log('\n\nExercise 3');
