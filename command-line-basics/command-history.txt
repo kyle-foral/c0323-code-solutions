@@ -1,0 +1,502 @@
+  189  git switch dom-manipulation
+  190  git add dom-manipulation
+  191  git commit -m 'updated'
+  192  git push origin dom-manipulation
+  193  git switch css-two-column-layout
+  194  git switch main
+  195  git switch main
+  196  git add css-two-column-layout
+  197  git switch main
+  198  git branch interview-test-1
+  199  git switch interview-test-1
+  200  git switch main
+  201  git branch javascript-custom-methods
+  202  git switch javascript-custom-methods
+  203  git status
+  204  git add javascript-custom-methods
+  205  git status
+  206  git commit -m 'completed javascript-custom-methods'
+  207  git push origin javascript-custom-methods
+  208  git staus
+  209  git status
+  210  git add javascript-custom-methods
+  211  git commit -m 'completed quiz notes'
+  212  git push origin javascript-custom-methods
+  213  git switch main
+  214  git pull origin main
+  215  git switch javascript-typing-tutor
+  216  git add javascript-typing-tutor
+  217  git commit -m ' removed console logs'
+  218  git push origin javascript-typing-tutor
+  219  git swtich main
+  220  git switch main
+  221  git switch csss-canvas-medical
+  222  git status
+  223  git add css-canvas-medical
+  224  git switch css-canvas-medical
+  225  git commit -m 'updated'
+  226  git push origin css-canvas-medical
+  227  git switch javascript-custom-methods
+  228  git add javascript-method-customs
+  229  git add javascript-custom-mthods
+  230  git add javascript-custom-methods
+  231  git commit -m ' updated quiz notes'
+  232  git push origin javascript-custom-methods
+  233  git switch main
+  234  git pull origin main
+  235  git branch javascript-this
+  236  git switch javascript-this
+  237  git add javascript-this
+  238  git status
+  239  git commit -m 'finished javascript-this'
+  240  git push origin javascript-this
+  241  git switch main
+  242  git switch css-canvas-medical
+  243  git status
+  244  git add css-canvas-medical
+  245  git commit -m ' updated some more work'
+  246  git push origin css-canvas-medical
+  247  git switch main
+  248  git switch javascript-this
+  249  git switch css-canvas-medical
+  250  git add css-canvas-medical
+  251  git commit -m 'WIP'
+  252  git push origin css-canvas-medical
+  253  git switch javascript-this
+  254  git status
+  255  git status
+  256  git status
+  257  git add javascript-this
+  258  git status
+  259  git commit -m 'updated quiz notes'
+  260  git push origin javascript-this
+  261  git status
+  262  git switch main
+  263  git switch css-canvas-medical
+  264  git add css-canvas-medical
+  265  git commit -m ' updated'
+  266  git push origin css-canvas-medical
+  267  git switch main
+  268  git pull origin main
+  269  git branch javascript-prototypes
+  270  git switch javascript-prototypes
+  271  git status
+  272  git add javascript-prototypes
+  273  git commit -m 'completed javascript-prototypes'
+  274  git push origin javascript-prototypes
+  275  git add javascript-prototypes
+  276  git commit -m 'finished quiz notes;
+  277  git commit -m 'completed quiz notes'
+  278  git push origin javascript-prototypes
+  279  git switch main
+  280  git pull origin main
+  281  git switch css-canvas-medical
+  282  git status
+  283  git add css-canvas-medical
+  284  git commit -m 'WIP'
+  285  git push origin css-canvas-medical
+  286  git switch main
+  287  git pull origin main
+  288  git switch javascript-prototypes
+  289  git add javascript-prototypes
+  290  git commit -m 'updated quiz notes'
+  291  git push origin javascript-prototypes
+  292  git switch main
+  293  git branch javascript-constructors
+  294  git switch javascript-constructors
+  295  git add javascript-constructors
+  296  git commit -m ' completed javascript-constructors'
+  297  git push origin javascript-constructors
+  298  git add javascript-constructors
+  299  git commit -m 'fixed new-object.js'
+  300  git push origin javascript-constructors
+  301  git switch css-canvas-medical
+  302  git add css-canvas-medical
+  303  git commit -m 'updated'
+  304  git push origin css-canvas-medical
+  305  git switch main
+  306  git pull origin main
+  307  git switch javascript-constructors
+  308  git add javascript-constructors
+  309  git commit -m 'fixed quiz notes'
+  310  git push origin javascript-constructors
+  311  git switch main
+  312  git pull origin main
+  313  git branch javascript-bank
+  314  git switch javascript-bank
+  315  git status
+  316  git add javascript-bank
+  317  git commit -m 'WIP'
+  318  git add javascript-bank
+  319  git commit -m 'WIP'
+  320  git push origin javascript-bank
+  321  git switch main
+  322  git branch es6-classes
+  323  git switch es6-classes
+  324  git switch main
+  325  git switch es6-classes
+  326  git status
+  327  git add es6-classes
+  328  git commit -m 'WIP'
+  329  git status
+  330  git commit -m 'WIP'
+  331  git add es6-classes
+  332  git commit -m 'wip'
+  333  git pull origin es6-classes
+  334  git status
+  335  git pull origin es6-classes
+  336  git add es6-classes
+  337  git commit -m 'fixed quiz notes but not done'
+  338  git push origin es6-classes
+  339  git switch main
+  340  git branch javascript-timers
+  341  git switch javascript-timers
+  342  git add javascript-timers
+  343  git commit -m 'javascript-timers'
+  344  git push origin javascript-timers
+  345  git switch main
+  346  git switch es6-classes
+  347  git add es6-classes
+  348  git commit -m 'updated circle.js and square.js'
+  349  git push origin es6-classes
+  350  git switch javascript-timers
+  351  git add javascript-timers
+  352  git commit -m 'updated intervaljs'
+  353  git push origin javascript-timers
+  354  git status
+  355  git switch css-canvas-medical
+  356  git switch array-manipulation-2
+  357  git switch main
+  358  git pull origin main
+  359  git switch array-manipulation-2
+  360  git switch main
+  361  git switch css-canvas-medical
+  362  git add css-canvas-medical
+  363  git commit -m 'WIP'
+  364  git push origin css-canvas-medical
+  365  git switch javascript-timers
+  366  git switch main
+  367  git switch javascript-timers
+  368  git status
+  369  git add javascript-timers
+  370  git commit -m ' upadted quiz notes'
+  371  git push origin javascript-timers
+  372  git switch main
+  373  git pull origin amin
+  374  git pull origin main
+  375  git branch javascript-carousel
+  376  git switch javascript-carousel
+  377  git status
+  378  git add javascript-carousel
+  379  git commit -m 'WIP'
+  380  git add javascript-carousel
+  381  git commit -m 'WIP'
+  382  git push origin javascript-carousel
+  383  git switch main
+  384  git pull origin main
+  385  git pull es6-template-literals
+  386  git pull origin es6-template-literals
+  387  git switch es6-template-literals
+  388  git switch main
+  389  git status
+  390  git switch javascript-carousel
+  391  git status
+  392  git add javascript-carousel
+  393  git status
+  394  git add javascript-carousel
+  395  git status
+  396  git add main.js
+  397  git status
+  398  git add styles.css
+  399  git add index.html
+  400  git add javascript-carousel-notes.md
+  401  git status
+  402  git add .gitkeep
+  403  git add images/
+  404  git status
+  405  git commit -m 'WIP'
+  406  git push origin javascript-carousel
+  407  git switch main
+  408  git status
+  409  git status
+  410  git branch http-messages
+  411  git switch http-messages
+  412  get https://example.com
+  413  http https://example.com
+  414  http --verbose http://example.com
+  415  http --body GET https://jsonplaceholder.typicode.com > http-messages-users.json
+  416  http --body GET https://example.com > http-messages/index.html
+  417  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+  418  git add http-messages
+  419  git commit 'm 'finished http-messages'
+  420  git status
+  421  git push origin http-messages
+  422  git push origin http-message
+  423  git status
+  424  git push origin http-messages
+  425  git status
+  426  git commit 'm -finished http-messages'
+  427  git commit -m 'finished http-message'
+  428  git push origin http-messages
+  429  git switch main
+  430  git pull origin main
+  431  git pull origin main
+  432  git pull origin main
+  433  git status
+  434  git status
+  435  git add http-messages
+  436  git status
+  437  git commit -m 'updated http-messages quiz notes;
+  438  git commit -m 'updated http-messages quiz nothes'
+  439  git status
+  440  git push origin main
+  441  git pull origin main
+  442  git branch javascript-ajax
+  443  git switch javascript-ajax
+  444  git add javascript-ajax
+  445  git commit -m ' finished javascript-ajax'
+  446  git push origin javscript-ajax
+  447  git push origin javascript-ajax
+  448  git switch main
+  449  git pull origin main
+  450  git switch css-canvas-medical
+  451  git add css-canvas-medical
+  452  git commit -m 'finished css-canvas-medical'
+  453  git push origin css-canvas-medical
+  454  git add css-canvas-medical
+  455  git commit -m 'added last 2 closing tags of div'
+  456  git push origin css-canvas-medical
+  457  git switch main
+  458  git status
+  459  git add javascript-ajax
+  460  git status
+  461  git commit -m 'updated quiz notes'
+  462  git push origin main
+  463  git pull origin main
+  464  git switch css-three-column-layout
+  465  http https://valorant-api.com/
+  466  git switch main
+  467  git switch javascript-ajax
+  468  http https://valorant-api.com/
+  469  http --body GET https://valorant-api.com > http-messages/users.json
+  470  http https://pokemontcg.io/ 
+  471  http https://pokemontcg.io/
+  472  http https://rapidapi.com/Ziggoto/api/humble-bundle
+  473  http https://pokeapi.co/
+  474  http https://dash.valorant-api.com/endpoints/agents
+  475  http https://developer.riotgames.com/apis#champion-v3/GET_getChampionInfo
+  476  git status
+  477  git status
+  478  git switch css-canvas-medical
+  479  git status
+  480  git add css-canvas-medical
+  481  git commit -m 'finished css-canvas-medical'
+  482  git push origin css-canvas-medical
+  483  git status
+  484  git add css-canvas-medical
+  485  git commit -m 'finished css-canvas-medical'
+  486  git push origin css-canvas-medical
+  487  git status
+  488  git switch main
+  489  git pull origin main
+  490  git switch javascript-ajax
+  491  git switch main
+  492  git branch
+  493  git switch array-manipulation-2
+  494  git switch interview-test-1
+  495  git switch array-manipulation-2
+  496  git status
+  497  git add array-manipulation-2
+  498  git commit -m 'pushing to pull'
+  499  git push origin array-manipulation-2
+  500  git switch main
+  501  git pull origin main
+  502  npm install --save-dev prettier eslint-config-prettier
+  503  npm install --save-dev stylelint@latest
+  504  npm install --save-dev stylelint@latest --legacy-peer-deps
+  505  npm install --save-dev stylelint@latest --legacy-peer-deps
+  506  git status
+  507  git add .devcontainer/devcontainer.json
+  508  git add .eslintrc
+  509  git add lintstagedrc
+  510  git add .lintstagedrc
+  511  git add .markuplintrc
+  512  git add .prettierrc
+  513  git status
+  514  git add .stylelintrc
+  515  git add javascript-arrays/main.js
+  516  git add package-lock.json
+  517  git add package.json
+  518  git add .vscode/settings.json
+  519  git status
+  520  git commit -m 'added prettier
+'
+  521  git status
+  522  git add .eslintrc
+  523  git commit -m 'added prettier'
+  524  git status
+  525  git add package.json
+  526  git commit -m 'added prettier
+'
+  527  git status
+  528  git status
+  529  git status
+  530  git add package.json
+  531  git commit -m 'added prettier'
+  532      npm install eslint-plugin-import@latest --save-dev
+  533      npm install eslint-plugin-import@latest --save-dev
+  534  rm -rf node_modules/
+  535  npm i
+  536      npm install eslint-plugin-import@latest --save-dev
+  537  git commit -m 'added prettier'
+  538  git push origin main
+  539  git status
+  540  git add .
+  541  git status
+  542  git commit -m 'update prettier'
+  543  git push origin main
+  544  git branch es6-destructuring
+  545  git switch es6-destructuring
+  546  git status
+  547  git add .
+  548  git status
+  549  git commit -m 'completed es6-destructuring'
+  550  git status
+  551  git add .
+  552  git commit -m 'completed es6-destructuring'
+  553  git add .
+  554  git status
+  555  git commit -m 'completed es6-destructing'
+  556  git push origin es6-destructuring
+  557  git status
+  558  git add .
+  559  git commit -m 'fixed some format errors'
+  560  git status
+  561  git add.
+  562  git add .
+  563  git status
+  564  git commit -m 'updated request changes and finished quiz notes'
+  565  git push origin es6-destructuring
+  566  git status
+  567  git add .
+  568  git commit -m 'adjusted changes to console log'
+  569  git push origin es6-destructuring
+  570  git switch main
+  571  git branch es6-arrow-functions
+  572  git switch es6-arrow-functions
+  573  git status
+  574  git add .
+  575  git commit -m 'completed arrow-functions'
+  576  git push origin arrow-functions
+  577  git push origin es6-arrow-functions
+  578  git switch main
+  579  git pull origin main
+  580  git switch es6-arrow-functions
+  581  git status
+  582  git add .
+  583  git commit -m 'updated notes'
+  584  git push origin es6-arrow-functions
+  585  git switch main
+  586  git pull origin main
+  587  git pull origin main
+  588  git pull origin es6-operators
+  589  git switch es6-operators
+  590  git status
+  591  git add .
+  592  git commit -m 'changed some quiz notes and fixed the the && operator question'
+  593  git push origin es6-operators
+  594  git switch main
+  595  git branch array-methods
+  596  git switch array-methods
+  597  git status
+  598  git add .
+  599  git status
+  600  git add .
+  601  git status
+  602  git commit -m 'completed array-methods'
+  603  git push origin array-methods
+  604  git status
+  605  git switch main
+  606  git pull origin main
+  607  git branch command-line-basics
+  608  git switch command-line-basics
+  609  cs command-line-basics
+  610  cd command-line-basics
+  611  man man
+  612  man cat
+  613  man cat
+  614  man cat
+  615  cat --show-all
+  616  man cat
+  617  cat
+  618  man cat
+  619  cat
+  620  man cat
+  621  cat hubris
+  622  cat hubris.txt
+  623  cat laziness.txt
+  624  cat impatience.txt
+  625  cat laziness.txt impatience.txt hubris.txt
+  626  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  627  cat three-virtues.txt
+  628  man ls
+  629  ls a
+  630  ls -a
+  631  ls -b
+  632  ls -c
+  633  ls -d
+  634  ls -e
+  635  ls -f
+  636  ls -F
+  637  ls -a
+  638  ls -aF
+  639  ls -aF lfz-staff
+  640  ls -aF lfz-staff/
+  641  ls -a lfz-staff/
+  642  ls -F lfz-staff/
+  643  ls -aF lfz-staff > lfz-staff/contents.txt
+  644  ls -aF lfz-staff > lfz-staff/contents.txt
+  645  man pwd
+  646  pwd > i-was-here.txt
+  647  ls -a
+  648  cat i-was-here.txt
+  649  cat i-was-here.txt
+  650  man scho
+  651  man echo
+  652  echo 'Hello World!'
+  653  echo 'Hello World!' > hello.txt
+  654  ls -a 
+  655  cat hello.txt
+  656  man touch
+  657  touch tag-youre-it.txt
+  658  touch snoot/boop.txt
+  659  ls -a
+  660  ls -a snoot/
+  661  man mkdir
+  662  mkdir parent
+  663  ls -a parent/
+  664  ls -a
+  665  mkdir -p
+  666  mkdir -p parent/child/grandchild
+  667  touch parent/child/grandchild/gitkeep
+  668  ls -a
+  669  ls -a parent
+  670  ls -a parent/child/grandchild
+  671  man mv
+  672  mv pokiemans
+  673  mv pokiemans pokemon
+  674  ls -a
+  675  man rm
+  676  rm lol.txt
+  677  ls -a
+  678  rm -r kill-me/
+  679  ls -a
+  680  man cp
+  681  cp and-then.txt no-and-then.txt
+  682  ls -a
+  683  cat and-then.txt
+  684  cat no-and-then.txt
+  685  man history
+  686  man history
+  687  history
+  688  history > command-history.txt
