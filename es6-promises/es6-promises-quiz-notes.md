@@ -9,9 +9,9 @@ After completing this exercise, you should be able to discuss or answer the foll
   fulfilled: meaning that the operation was completed successfully.
   rejected: meaning that the operation failed.
 - How do you handle the fulfillment of a Promise?
-  with the onFulFilment method.
+  with the then method.
 - How do you handle the rejection of a Promise?
-  with the onRejected method.
+  with the catch method.
 
 ## Notes
 
