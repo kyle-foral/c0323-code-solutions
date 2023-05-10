@@ -7,7 +7,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What is the `process` object in a Node.js program?
   a global object that can be accessed inside any module without requiring it
 - How do you access the `process` object in a Node.js program?
-  can be accessed directly. with 'required keyword'
+  can be accessed directly. with 'required keyword'. ( node fileName command-line-arguments)
 - What is the data type of `process.argv` in Node.js?
   a property that holds an array of command-line values provided when the current process was initiated
 - How do you access the command line arguments in a Node.js program?
