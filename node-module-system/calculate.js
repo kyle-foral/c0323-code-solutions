@@ -4,14 +4,14 @@ import multiply from './multiply.js';
 import divide from './divide.js';
 
 if (process.argv[3] === 'minus') {
-  subtract(4, 2);
+  subtract(+process.argv[2], +process.argv[4]);
 }
 if (process.argv[3] === 'times') {
-  multiply(5, 3);
+  multiply(+process.argv[2], +process.argv[4]);
 }
 if (process.argv[3] === 'over') {
-  divide(20, 5);
+  divide(+process.argv[2], +process.argv[4]);
 }
 if (process.argv[3] === 'plus') {
-  add(2, 1);
+  add(+process.argv[2], +process.argv[4]);
 }
