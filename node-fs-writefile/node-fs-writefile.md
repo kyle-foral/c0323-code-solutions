@@ -5,8 +5,9 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What method is available in the `node:fs` module for writing data to a file?
-
+  writeFile()
 - Are file operations using the `fs` module synchronous or asynchronous?
+  asynchronous cause you can use try/catch
 
 ## Notes
 
