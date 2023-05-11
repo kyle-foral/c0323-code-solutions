@@ -1,11 +1,12 @@
-// import { readFile } from 'node:fs/promises'
-// try {
-//   const text = process.argv.slice(2)
-//   const file = text.map((element) => readFile(element), 'utf8')
+import { readFile } from 'node:fs/promises';
 
-//   console.log(contents)
-// } catch (err) {
-//   console.error(err.message)
-// }
+const [, , ...files] = process.argv;
 
-// //const contents = await readFile(text, { encoding: 'utf8' })
+const promises = files.map((files) => readFile(files, 'utf8'));
+
+try {
+  const contents = await Promise.all(promises);
+  console.log(contents.join('\n'));
+} catch (err) {
+  console.error(err.message);
+}
