@@ -46,6 +46,6 @@ async function throwChained() {
   }
 }
 
-throwOnce()
-  .then(() => throwSeveral())
-  .then(() => throwChained());
+await throwOnce();
+await throwSeveral();
+await throwChained();

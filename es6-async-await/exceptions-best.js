@@ -9,8 +9,7 @@ async function throwOnce() {
   // Note: In the `catch` we are logging just `error.message` for illustration
   // purposes. In actual code you will want to log the entire error so that
   // you get the stack trace.
-
-  const repo = await fetch('foo', false);
+  const repo = await fetch('foo', true);
   console.log(elapsed(), 'throwOnce:', repo);
 }
 
@@ -19,34 +18,27 @@ async function throwSeveral() {
   // purposes. In actual code you will want to log `error` so that
   // you get the stack trace.
 
-  const msg = await fetch('foo1', false);
+  const msg = await fetch('foo1', true);
   console.log(elapsed(), 'throwSeveral1:', msg);
-  const msg2 = await fetch('foo2', false);
+  const msg2 = await fetch('foo2', true);
   console.log(elapsed(), 'throwSeveral2:', msg2);
-  const msg3 = await fetch('foo3', false);
+  const msg3 = await fetch('foo3', true);
   console.log(elapsed(), 'throwSeveral3:', msg3);
 }
 
 async function throwChained() {
-  const msg1 = await fetch('foo-chain', false);
+  const msg1 = await fetch('foo-chain', true);
   console.log(elapsed(), 'throwChained1:', msg1);
-  const msg2 = await fetch(msg1, false);
+  const msg2 = await fetch(msg1, true);
   console.log(elapsed(), 'throwChained2:', msg2);
-  const msg3 = await fetch(msg2, false);
+  const msg3 = await fetch(msg2, true);
   console.log(elapsed(), 'throwChained3:', msg3);
 }
-// try {
-//   throwOnce()
-// } catch {}
-
-//
 
 try {
-  throwOnce();
-  throwSeveral();
-  throwChained();
+  await throwOnce();
+  await throwSeveral();
+  await throwChained();
 } catch (error) {
-  console.log(elapsed(), 'throwOnce Error:', error.message);
-  console.log(elapsed(), 'throwSeveral Error:', error.message);
-  console.log(elapsed(), 'throwChained Error:', error.message);
+  console.log(elapsed(), 'throw Error:', error.message);
 }
