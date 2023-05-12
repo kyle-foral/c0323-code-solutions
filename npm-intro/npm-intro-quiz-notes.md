@@ -11,6 +11,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What are some other popular package managers?
   Yarn and PNPM
 - How can you create a `package.json` with `npm`?
+  navigate to the root directory of your package.
   npm init --yes
 - What is a dependency and how do you add one to a package?
   package that our package depends on in order to be able to run.
@@ -18,7 +19,8 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What happens when you add a dependency to a package with `npm`?
   the devDependencies will get stored in the package. json file
 - What is a devDependency and how do you add one to a package?
-  packages in the package. json file that you need only for project development purposes
+  and gets added to node_modules
+  packages in the package. json file that you need only for project development purposes.
 - How do you define and run `npm` scripts? Why are these useful?
   set its name and write the script under the 'scripts' property of your package. json file.
   provide a simple way to execute repetitive tasks
