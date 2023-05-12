@@ -7,10 +7,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "eslint": "^8.40.0",
     "jquery": "^3.7.0"
   },
   "scripts": {
     "hello": "echo Hello, LearningFuze"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0"
   }
 }
