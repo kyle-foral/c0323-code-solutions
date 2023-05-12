@@ -1,29 +1,52 @@
-// import * as fs from 'node:fs/promises'
+import * as fs from 'node:fs/promises';
 
-// try {
-//   if (process.argv[2] === 'read') {
-//     read()
-//   }
-//   if (process.argv[2] === 'create') {
+try {
+  if (process.argv[2] === 'read') {
+    read();
+  }
+  if (process.argv[2] === 'create') {
+    create();
+  }
+  if (process.argv[2] === 'update') {
+    update();
+  }
+  if (process.argv[2] === 'delete') {
+    remove();
+  }
+} catch (err) {
+  console.error('Error:', err.message);
+}
 
-//   }
-//   if (process.argv[2] === 'delete') {
+async function read() {
+  const content = await fs.readFile('data.json');
+  const info = JSON.parse(content);
+  const notes = info.notes;
+  const done = JSON.stringify(notes, null, 2);
+  console.log(done);
+}
 
-//   }
-//   if (process.argv[2] === 'update') {
+async function create() {
+  const input = process.argv[3];
+  const content = JSON.parse(await fs.readFile('./data.json', 'utf8'));
+  content.notes[content.nextId] = input;
+  content.nextId++;
+  const final = JSON.stringify(content, null, 2);
+  await fs.writeFile('./data.json', final);
+}
 
-//   }
-// } catch (err) {
-//   console.error('Error:', err.message)
-// }
+async function update() {
+  const number = process.argv[3];
+  const input = process.argv[4];
+  const content = JSON.parse(await fs.readFile('data.json'));
+  content.notes[number] = input;
+  const final = JSON.stringify(content, null, 2);
+  await fs.writeFile('data.json', final);
+}
 
-// async function read () {
-//   const content = await fs.readFile('data.json')
-//   const info = JSON.parse(content)
-//   console.log(info)
-// }
-
-// async function create () {
-//   const file = process.argv[4]
-//   const input = process.argv[5]
-// }
+async function remove() {
+  const number = process.argv[3];
+  const content = JSON.parse(await fs.readFile('data.json'));
+  delete content.notes[number];
+  const final = JSON.stringify(content, null, 2);
+  await fs.writeFile('data.json', final);
+}
