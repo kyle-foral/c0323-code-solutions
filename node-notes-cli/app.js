@@ -2,16 +2,16 @@ import * as fs from 'node:fs/promises';
 
 try {
   if (process.argv[2] === 'read') {
-    read();
+    await read();
   }
   if (process.argv[2] === 'create') {
-    create();
+    await create();
   }
   if (process.argv[2] === 'update') {
-    update();
+    await update();
   }
   if (process.argv[2] === 'delete') {
-    remove();
+    await remove();
   }
 } catch (err) {
   console.error('Error:', err.message);
