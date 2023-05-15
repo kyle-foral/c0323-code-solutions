@@ -7,7 +7,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What is an API endpoint?
   The place that APIs send requests and where the resource lives
 - What is the appropriate `Content-Type` header for HTTP messages that contain JSON in their bodies?
-  A string
+  application.json
 
 ## Notes
 

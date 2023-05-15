@@ -9,7 +9,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What is Express middleware useful for?
   Executing a process of http requests recieved by an express application
 - How do you mount a middleware with an Express application?
-  Through a series of middleware fucntions together
+  Through a series of middleware fucntions together. By using the (use method)
 - Which objects does an Express application pass to your middleware to manage the request/response lifecycle of the server?
   By using the request object and response object.
 
