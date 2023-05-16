@@ -6,9 +6,10 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 - Why do we use databases in Web development?
   application needs to quickly retrieve or store complex data in an organized fashion, a database fills that need nicely.
+  allows more than one user at a time for a centralized area.
 - What is PostgreSQL and what are some alternative relational databases?
   PostgreSQL is a powerful, free, open source Relational Database Management System (RDBMS).
-  Oracle
+  Oracle, MySQL, Microsoft SQL Server
 - What are some advantages of learning a relational database?
   because you usually do work with them using some variation of the SQL language.
 - What is one way to see if PostgreSQL is running?
