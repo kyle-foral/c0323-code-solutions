@@ -6,7 +6,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 - What is a database schema?
   A collection of tables
-  defines how the data in a relational database should be organized.
+  how the relational database should be organized.
 - What is a table?
   A table is a list of rows each having the same set of attributes.
 - What is a row?
