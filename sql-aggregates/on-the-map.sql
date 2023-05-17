@@ -1,4 +1,5 @@
-select count(*) as "totalCities"
+select "countries"."name",
+count(*) as "totalCities"
 from "cities"
 join "countries" using ("countryId")
-where "countries"."countryId" = '103'
+group by "countries"."name"

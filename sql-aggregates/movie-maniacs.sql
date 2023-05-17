@@ -5,5 +5,5 @@ sum("amount") as "totalSpent"
 from "payments"
 join "customers" using ("customerId")
 join "rentals" using ("rentalId")
-group by "customers"."firstName", "customers"."lastName"
+group by "customers"."customerId"
 order by "totalSpent" desc
