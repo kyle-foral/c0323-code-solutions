@@ -50,9 +50,11 @@ app.post('/api/grades', async (req, res) => {
 insert into "grades"("name", "course", "score")
 values ($1, $2, $3) RETURNING*`;
     const values = [req.body.name, req.body.course, req.body.score];
-    db.query(text, values, (res2) => {
-      res.status(201).json(res2.rows[0]);
-    });
+    const result = await db.query(text, values);
+    const grade = result.rows[0];
+    if (grade) {
+      res.status(201).json(grade);
+    }
   } catch (err) {
     console.error(err);
     res.status(500).json({ error: 'An unexpected error occurred.' });
