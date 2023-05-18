@@ -8,7 +8,7 @@ import f1 from '/foo/bar/baz/qux';
 import f2 from '../foo.json';
 
 // import from a file named `bar.js` located in the parent directory:
-import f3 from '../foo/bar.js';
+import f3 from '../foo/bar';
 
 // import from a file named `index.js` located in a directory named `baz` that
 // is in the current directory:
