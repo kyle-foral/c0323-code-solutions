@@ -65,7 +65,6 @@ app.put('/api/grades/:gradeId', async (req, res) => {
   try {
     console.log(req.method);
     const id = Number(req.params.gradeId);
-    const foundGradeId = false;
     if (id < 0 || Number.isNaN(id)) {
       res.status(400).json({ error: `${id} is an invalid number` });
       return;
@@ -95,8 +94,7 @@ app.put('/api/grades/:gradeId', async (req, res) => {
     const grade = result.rows[0];
     if (grade) {
       res.status(200).json(grade);
-    }
-    if (foundGradeId === false) {
+    } else {
       return res
         .status(404)
         .json({ error: 'the gradeId entered does not exist' });
@@ -111,7 +109,6 @@ app.delete('/api/grades/:gradeId', async (req, res) => {
   try {
     console.log(req.method);
     const id = Number(req.params.gradeId);
-    const foundGradeId = false;
     if (id < 0 || Number.isNaN(id)) {
       return res
         .status(400)
@@ -138,8 +135,7 @@ app.delete('/api/grades/:gradeId', async (req, res) => {
     const grade = result.rows[0];
     if (grade) {
       return res.sendStatus(204);
-    }
-    if (foundGradeId === false) {
+    } else {
       return res
         .status(404)
         .json({ error: 'the gradeId entered does not exist' });
