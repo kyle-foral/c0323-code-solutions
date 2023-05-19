@@ -16,9 +16,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer">
           <div>
-            <CustomButton text={'i'} color="purple" />
-            <CustomButton text={'know'} color="white" />
-            <CustomButton text={'react'} color="pink" />
+            <CustomButton text="i" color="purple" />
+            <CustomButton text="know" color="white" />
+            <CustomButton text="react" color="pink" />
           </div>
         </a>
       </header>
