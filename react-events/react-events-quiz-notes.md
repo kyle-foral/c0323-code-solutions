@@ -9,9 +9,9 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What is an "event handler"? Which component declares the handler?
   a callback routine that operates asynchronously once an event takes place
 - How do you pass an event handler to a React component?
-  By calling it within the component
+  You assign the function to the eventhanlder prop
 - What is the naming convention for event handlers?
-  Always put handle then the component name
+  Always put handle then the event name
 - What is an "event handler prop"? Which component declares the prop?
   The event handler prop is the parameter defined within the component
 - What are some custom event handler props a component may wish to define?
