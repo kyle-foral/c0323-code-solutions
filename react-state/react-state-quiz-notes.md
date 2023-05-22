@@ -9,6 +9,8 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What are the "Rules of Hooks"? (if necessary, re-read the "Pitfall" box in [State](https://react.dev/learn/state-a-components-memory))
   Must be top level.
   Can't be inside conditions, loops or other nested functions.
+  Must start with 'Use' then the name with a capital letter.
+  Must also be in the same order everytime.
 - What is the purpose of state in React?
   to contain data or information about the component
 - Why can't we just maintain state in a local variable?
@@ -16,7 +18,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What two actions happen when you call a `state setter` function?
   It renders the first then updates then state.
 - When does the local `state variable` get updated with the new value?
-  When it gets called and set a new value.
+  On the next render when you call useState.
 
 ## Notes
 
