@@ -37,9 +37,7 @@ export default function RegistrationFormControlled() {
 
       <br></br>
 
-      <label>
-        <button type="submit">Submit</button>
-      </label>
+      <button type="submit">Submit</button>
     </form>
   );
 }

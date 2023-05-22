@@ -24,9 +24,7 @@ export default function RegistrationFormUncontrolled() {
 
       <br></br>
 
-      <label>
-        <button type="submit">Submit</button>
-      </label>
+      <button type="submit">Submit</button>
     </form>
   );
 }
