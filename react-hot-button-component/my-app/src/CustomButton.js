@@ -2,10 +2,10 @@ import { useState } from 'react';
 import './CustomButton.css';
 
 export default function CustomButton({ text, className }) {
-  let [number, setNumber] = useState(0);
+  const [number, setNumber] = useState(0);
 
   function handleClick() {
-    setNumber((number += 1));
+    setNumber(number + 1);
   }
 
   if (number < 3) {

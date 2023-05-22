@@ -3,11 +3,7 @@ import CustomButton from './CustomButton';
 import './CustomButton.css';
 
 function App() {
-  return (
-    <div>
-      <CustomButton text="Press Me" />
-    </div>
-  );
+  return <CustomButton text="Press Me" />;
 }
 
 export default App;
