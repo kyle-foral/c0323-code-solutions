@@ -14,8 +14,10 @@ After completing this exercise, you should be able to discuss or answer the foll
   Map method
 - Why do components in a list need to have unique keys?
   for performance improvements
+  helps react know which items have been changed.
 - What is the best value to use as a "key" prop when rendering lists?
   a string that resembles the item or items
+  or the ID
 
 ## Notes
 
