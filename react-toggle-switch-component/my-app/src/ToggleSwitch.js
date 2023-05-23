@@ -1,16 +1,19 @@
-// import { useState } from "react"
+import { useState } from 'react';
 import './ToggleSwitch.css';
 
-export default function ToggleSwitch() {
-  // const [toggle, setToggle] = useState(false);
+export default function ToggleSwitch(className) {
+  const [toggle, setToggle] = useState(false);
 
-  // function handleClick(){
-  //   setToggle(!toggle)
-  // }
+  function handleClick() {
+    setToggle(!toggle);
+  }
 
+  function handleLabelText() {
+    if (toggle) {
+      className = 'OFF';
+    }
+  }
   return (
-    <label class="toggle-switch">
-      <input type="checkbox" />
-    </label>
+    <input type="checkbox" className={handleLabelText} onClick={handleClick} />
   );
 }
