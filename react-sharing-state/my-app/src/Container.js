@@ -71,7 +71,14 @@ function CustomButton({ text, onCustomClick, color = 'white' }) {
 function Indicators({ count, onSelect, active }) {
   const buttons = [];
   for (let i = 0; i < count; i++) {
-    buttons.push(<CustomButton key={i} text={i} active={() => onSelect(i)} />);
+    buttons.push(
+      <CustomButton
+        key={i}
+        text={i}
+        onCustomClick={() => onSelect(i)}
+        color={active === i ? 'lightblue' : ''}
+      />
+    );
   }
   return <div>{buttons}</div>;
 }
