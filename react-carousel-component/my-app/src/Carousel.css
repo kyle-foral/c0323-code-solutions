@@ -1,0 +1,29 @@
+svg {
+  color: rgb(1 159 239);
+  font-size: 3rem;
+}
+
+.next {
+  position: absolute;
+  right: 40%;
+  top: 40%;
+}
+
+.prev {
+  position: absolute;
+  left: 32%;
+  top: 40%;
+}
+
+.bottomRow {
+  position: absolute;
+  bottom: 35%;
+  right: 52%;
+}
+
+img {
+  position: absolute;
+  justify-content: center;
+  right: 45%;
+  top: 25%;
+}
