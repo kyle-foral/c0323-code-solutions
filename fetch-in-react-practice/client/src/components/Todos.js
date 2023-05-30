@@ -17,7 +17,7 @@ export default function Todos() {
         if (!response.ok) {
           throw new Error('Network reponse was not OK', response.status);
         }
-        const jsonData = response.json();
+        const jsonData = await response.json();
         setTodos(jsonData);
         setIsLoading(false);
       } catch (error) {
@@ -30,22 +30,20 @@ export default function Todos() {
   /* Implement addTodo to add a new todo. Hints are at the bottom of the file. */
   async function addTodo(newTodo) {
     try {
-      const response = await fetch('/api/todos', {
+      const res = await fetch('/api/todos', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify(newTodo),
       });
-      if (!response.ok) {
-        throw new Error('Network reponse was not OK', response.status);
+      if (!res.ok) {
+        throw new Error('Network reponse was not OK', res.status);
       }
-      const jsonData = await response.json();
+      const jsonData = await res.json();
       setTodos([...todos, jsonData]);
-      setIsLoading(false);
     } catch (error) {
       setError(error);
-      setIsLoading(false);
     }
   }
 
@@ -61,23 +59,21 @@ export default function Todos() {
           break;
         }
       }
-      const response = await fetch(`/api/todos/${todoId}`, {
+      const patch = await fetch(`/api/todos/${todoId}`, {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify(newObject),
       });
-      if (!response.ok) {
-        throw new Error('Network reponse was not OK', response.status);
+      if (!patch.ok) {
+        throw new Error('Network reponse was not OK', patch.status);
       }
-      const jsonData = await response.json();
+      const jsonData = await patch.json();
       const newArray = todos.slice();
       setTodos(newArray[index]);
-      setIsLoading(false);
     } catch (error) {
       setError(error);
-      setIsLoading(false);
     }
   }
 
