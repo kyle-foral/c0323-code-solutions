@@ -10,10 +10,10 @@ export default function User({ userId, onCancel }) {
   /* your code here (hint: useEffect) */
 
   useEffect(() => {
-    async function logData(userId) {
+    async function logData() {
       try {
         const response = await fetch(
-          'https://jsonplaceholder.typicode.com/users/${userId}'
+          `https://jsonplaceholder.typicode.com/users/${userId}`
         );
         if (!response.ok) throw new Error(`fetch Error ${response.status}`);
         const jsonData = await response.json();
@@ -28,7 +28,7 @@ export default function User({ userId, onCancel }) {
         console.error('Error', error);
       }
     }
-    if (userId) logData(userId);
+    logData();
   }, [userId]);
 
   if (isLoading) {
