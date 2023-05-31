@@ -13,18 +13,19 @@ export default function Todos() {
   useEffect(() => {
     async function logJSONData() {
       try {
-        const response = await fetch(`/api/todos`);
+        const response = await fetch('/api/todos');
         if (!response.ok) {
           throw new Error('Network reponse was not OK', response.status);
         }
         const jsonData = await response.json();
         setTodos(jsonData);
-        setIsLoading(false);
       } catch (error) {
         setError(error);
+      } finally {
         setIsLoading(false);
       }
     }
+    logJSONData();
   }, []);
 
   /* Implement addTodo to add a new todo. Hints are at the bottom of the file. */
@@ -71,7 +72,7 @@ export default function Todos() {
       }
       const jsonData = await patch.json();
       const newArray = todos.slice();
-      setTodos(newArray[index]);
+      setTodos(newArray);
     } catch (error) {
       setError(error);
     }
