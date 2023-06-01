@@ -7,13 +7,13 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What is the purpose of React "context"?
   allows us to pass data through our component trees, giving our components the ability to communicate and share data at different levels
 - What values can be stored in context?
-  Theme data or User data
+  Anything
 - How do you create context and make it available to the components?
-  use the React createContext function
+  use the React createContext function, wrap them in context.provider
 - How do you access the context values?
-  hrough props with the help of useContext method
+  hrough props with the help of useContext method, import
 - When would you use context? (in addition to the best answer: "rarely")
-  When you need context that should adapt to it's surroudings
+  When you need context that should adapt to it's surroudings. And needing to pass a prop to be deeply nested.
 
 ## Notes
 
