@@ -84,7 +84,7 @@ app.get('/api/entries', authMiddleware, async (req, res, next) => {
   }
 });
 
-app.post('/api/entries', authMiddleware, async (req, res, next) => {
+app.post('/api/entries', async (req, res, next) => {
   try {
     if (!req.user) {
       throw new ClientError(401, 'not logged in');
