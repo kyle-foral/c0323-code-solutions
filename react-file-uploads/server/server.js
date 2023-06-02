@@ -31,7 +31,7 @@ app.post(
                       values ($1, $2) RETURNING*`;
       const values = [caption, url];
       const result = await db.query(insert, values);
-      const link = result.rows[0];
+      const [link] = result.rows[0];
       if (link) {
         res.status(201).json(link);
       }

@@ -8,6 +8,9 @@ export default function UploadForm() {
         body: formData,
       });
       const result = await res.json();
+      if (!result) {
+        throw new Error('fetch error');
+      }
       console.log(result);
     } catch (error) {
       console.error('error', error);
