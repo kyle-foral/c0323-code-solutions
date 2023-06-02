@@ -50,29 +50,24 @@ export default function Todos() {
 
   /* Implement toggleCompleted to toggle the completed state of a todo. Hints are at the bottom of the file. */
   async function toggleCompleted(todoId) {
+    const oldTodo = todos.find((todo) => todo.todoId === todoId);
+    const patch = {
+      method: 'PATCH',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ isCompleted: !oldTodo.isCompleted }),
+    };
     try {
-      const newObject = {};
-      let index = 0;
-      for (let i = 0; i < todos.length; i++) {
-        if (todoId === todos[i].todoId) {
-          newObject.isCompleted = !todos[i].isCompleted;
-          index = i;
-          break;
-        }
+      const response = await fetch(`/api/todos/${todoId}`, patch);
+      if (!response.ok) {
+        throw new Error('Network response was not OK', response.status);
       }
-      const patch = await fetch(`/api/todos/${todoId}`, {
-        method: 'PATCH',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(newObject),
-      });
-      if (!patch.ok) {
-        throw new Error('Network reponse was not OK', patch.status);
-      }
-      const jsonData = await patch.json();
-      const newArray = todos.slice();
-      setTodos(newArray);
+      const updated = await response.json();
+      const allTodos = todos.map((original) =>
+        original.todoId === updated.todoId ? updated : original
+      );
+      setTodos(allTodos);
     } catch (error) {
       setError(error);
     }
