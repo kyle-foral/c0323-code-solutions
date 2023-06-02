@@ -4,16 +4,15 @@ import './ToggleSwitch.css';
 export default function ToggleSwitch(className) {
   const [toggle, setToggle] = useState(false);
 
-  function handleClick() {
-    setToggle(!toggle);
-  }
+  let text = toggle ? 'ON' : 'OFF';
+  let toggleButton = toggle ? 'is-on' : '';
 
-  function handleLabelText() {
-    if (toggle) {
-      className = 'OFF';
-    }
-  }
   return (
-    <input type="checkbox" className={handleLabelText} onClick={handleClick} />
+    <div className={`toggle-switch ${toggleButton}`}>
+      <div className="slider" onClick={() => setToggle(!toggle)}>
+        <div className="switch" />
+      </div>
+      <span>{text}</span>
+    </div>
   );
 }
