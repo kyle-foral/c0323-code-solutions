@@ -6,3 +6,4 @@ export default class ClientError extends Error {
     this.status = status;
   }
 }
+//
