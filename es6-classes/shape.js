@@ -11,5 +11,5 @@ class Shape {
   }
 }
 
-const shape = new Shape();
+const shape = new Shape(4, 8);
 console.log('shape describe', shape.describe);
