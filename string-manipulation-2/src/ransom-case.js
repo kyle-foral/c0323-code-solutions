@@ -1,10 +1,13 @@
 /* exported ransomCase */
 
 function ransomCase(string) {
+  let newString = '';
   for (let i = 0; i < string.length; i++) {
     if (i % 2 === 0) {
-      string.toLowerCase([i]);
-    } else string[i].toUpperCase();
+      newString += string[i].toLowerCase();
+    } else {
+      newString += string[i].toUpperCase();
+    }
   }
-  return string;
+  return newString;
 }
